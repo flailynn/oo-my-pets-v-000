@@ -62,7 +62,6 @@ class Owner
       end
       pets.clear
     end
-    end
   end
 
   def self.all
