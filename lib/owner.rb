@@ -7,7 +7,8 @@ class Owner
   end
 
   def say_species
-    self.s
+    "I am a #{self.species}"
+  end
 
   def self.all
     @@all
