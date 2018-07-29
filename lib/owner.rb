@@ -58,6 +58,7 @@ class Owner
   def sell_pets
     #For each type of pet (i.e. dog, cat, or fish)
     self.pets.each do |pet_type, pets|
+
       #Set pet mood to nervous
       pets.each do |pet|
         pet.mood = "nervous"
