@@ -16,6 +16,7 @@ class Owner
   def buy_fish(name)
     fish = Fish.new(name)
     self.pets[:fish] << fish
+    fish
   end
 
   def self.all
