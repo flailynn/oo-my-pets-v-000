@@ -35,6 +35,8 @@ class Owner
     self.pets[:dogs].each do |dog|
       dog.mood = "happy"
     end
+    #return nil
+    nil
   end
 
   def self.all
