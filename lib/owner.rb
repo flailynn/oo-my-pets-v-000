@@ -1,5 +1,10 @@
 class Owner
+  attr_reader :species
   @@all = []
+
+  def initialize()
+
+  end
 
   def self.all
     @@all
