@@ -47,6 +47,14 @@ class Owner
     nil
   end
 
+  def feed_fish
+    self.pets[:fishes].each do |fish|
+      fish.mood = "happy"
+    end
+    #return nil
+    nil
+  end
+
   def self.all
     @@all
   end
